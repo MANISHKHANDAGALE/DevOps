@@ -1,6 +1,6 @@
 pipeline {
   agent any
-
+  
   environment {
     FRONTEND_IMAGE = "mern-frontend:jenkins"
     BACKEND_IMAGE  = "mern-backend:jenkins"
