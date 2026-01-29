@@ -43,7 +43,7 @@ EOF
       steps {
         sh '''
           echo "Starting MERN stack with Docker Compose..."
-          docker compose up -d
+          docker compose up -d --build
 
           echo "Showing running containers..."
           docker ps
